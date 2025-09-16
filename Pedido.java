@@ -24,10 +24,6 @@ public class Pedido {
         itens.add(item);
     }
 
-    public void removerItem(Item item) {
-        itens.remove(item);
-    }
-
     public double calcularPedido() {
         double total = 0.0;
 
